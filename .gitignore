@@ -1,0 +1,14 @@
+.vscode/
+__pycache__
+
+dataset/
+plots/
+outputs/
+artifacts/
+catboost_info/
+models/
+sand_box/
+
+submission.csv
+
+
