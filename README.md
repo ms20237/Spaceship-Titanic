@@ -25,7 +25,7 @@ Spaceship-Titanic/
 ├── outputs/
 │   ├── submission.csv           # CatBoost submission
 │   └── submission_xgb.csv       # XGBoost submission
-├── 01_EDA.ipynb
+├── EDA.ipynb
 ├── train_classifier.py          # CatBoost pipeline
 ├── train_xgboost.py             # XGBoost pipeline
 └── README.md
@@ -54,7 +54,7 @@ The dataset is not included in this repository. Download it from the [Kaggle com
 | `Name` | Text | Passenger name |
 | `Transported` | Target | `True` / `False` |
 
-## 🔍 Key Findings from the EDA (`01_EDA.ipynb`)
+## 🔍 Key Findings from the EDA (`EDA.ipynb`)
 
 ### 1. Shape & quality
 *   Train: **8,693 × 14**, Test: **4,277 × 13**.
@@ -177,7 +177,7 @@ CatBoost currently edges out XGBoost, mainly from its native handling of high-ca
 
 4.  **Run the EDA notebook:**
     ```bash
-    jupyter notebook 01_EDA.ipynb
+    jupyter notebook EDA.ipynb
     ```
 
 5.  **Train a model and generate a submission:**
