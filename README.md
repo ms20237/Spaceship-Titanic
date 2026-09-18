@@ -158,7 +158,7 @@ CatBoost currently edges out XGBoost, mainly from its native handling of high-ca
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/<your-username>/Spaceship-Titanic.git
+    git clone https://github.com/ms20237/Spaceship-Titanic.git
     cd Spaceship-Titanic
     ```
 
